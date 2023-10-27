@@ -8,7 +8,7 @@ from keras.preprocessing.image import img_to_array
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
 
 # Load the emotion classifier model
-classifier = load_model('model_file_50epochs.h5')
+classifier = load_model('model.h5')
 
 cap = cv2.VideoCapture(0)
 

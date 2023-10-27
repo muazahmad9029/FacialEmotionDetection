@@ -1,3 +1,5 @@
+# This file is there to be implemented on a video. It creates an ID of the person along with bounding box.
+# The output is stored in a new file
 import face_recognition
 import cv2
 import numpy as np
